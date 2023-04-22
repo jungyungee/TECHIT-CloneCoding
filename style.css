@@ -49,23 +49,37 @@ body{
 #s3{
     color: gray;
 }
-#icons{
+.icons{
     position: relative;
     top: 180px;
     display: flex;
     justify-content: space-between;
     padding: 0;
+    list-style: none;
+}
+.icons img{
+    border-radius: 10px;
 }
 .school{
     margin: 10px;
+    /*내용 세로 정렬*/
 }
 .d-day{
     border: solid 1px blue;
     border-radius: 5px;
     color: blue;
     padding: 8px;
+    text-align: center;
+    position: relative;
 }
 .class-title{
     font-size: 20px;
     font-weight: 600;
+}
+.class-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+.date{
+    color: grey;
 }
