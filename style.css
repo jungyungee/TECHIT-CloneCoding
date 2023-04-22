@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box; 
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background-color: white;
+    width: 1280px;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    padding: 20px;
+    border-bottom: solid 1px lightgrey;
+}
+#title{
+    margin-right: 20px;
+}
+.menu{
+    padding-left:15px;
+    padding-right: 15px;
+    font-weight: 600;
+}
+#login{
+    color: gray;
+    justify-content: flex-end;
+}
+#main-img{
+    position: relative;
+    top: 63px;
+}
+#school{
+    position: relative;
+    top: 150px;
+    margin: 20px;
+}
+#s1{
+    color: darkorange;
+    font-weight:bold;
+    line-height: 30px;
+}
+#s2{
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+#s3{
+    color: gray;
+}
+#icons{
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.school{
+    margin: 10px;
+}
+.d-day{
+    border: solid 1px blue;
+    border-radius: 5px;
+    color: blue;
+    padding: 8px;
+}
+.class-title{
+    font-size: 20px;
+    font-weight: 600;
+}
