@@ -8,12 +8,16 @@ body{
 }
 #banner{
     background-color: white;
-    width: 1280px;
+    width: 100%;
     display: flex;
     position: fixed;
     z-index: 999;
     padding: 20px;
     border-bottom: solid 1px lightgrey;
+    justify-content: space-between;
+}
+#banner-menu{
+    display: flex;
 }
 #title{
     margin-right: 20px;
@@ -22,6 +26,8 @@ body{
     padding-left:15px;
     padding-right: 15px;
     font-weight: 600;
+    margin-right: 10px;
+    position: static;
 }
 #login{
     color: gray;
@@ -87,4 +93,10 @@ body{
 .date{
     color: grey;
     margin: 10px;
+}
+/*미디어 쿼리 이용하여 1024px 이하에서는 상단바 메뉴들 사라지게 */
+@media (max-width: 1024px) {
+    .menu{
+        display: none;
+    }
 }
